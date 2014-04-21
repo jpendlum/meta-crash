@@ -1,2 +1,2 @@
-meta-crash
-==========
+meta-zynq-gnuradio
+==================
