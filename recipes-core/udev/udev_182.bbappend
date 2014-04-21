@@ -5,5 +5,5 @@ SRC_URI += " \
            "
 
 do_install_append() {
-    install -m 0644 ${WORKDIR}/80-user_peripheral.rules ${D}${sysconfdir}/udev/rules.d/80-user_peripheral.rules
+    install -m 0644 ${WORKDIR}/80-user_peripheral.rules ${D}${sysconfdir}/udev/rules.d/80-crash-kmod.rules
 }
