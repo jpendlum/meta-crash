@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=783b7e40cdfb4a1344d15b1f7081af66"
 CRASH_KMOD_VERSION ?= "0.1"
 PV = "${CRASH_KMOD_VERSION}+git${SRCPV}"
 
-SRC_URI = "git://github.com/jpendlum/crash-kmod.git;protocol=https;branch=master"
+SRC_URI = "git://github.com/jpendlum/crash-kmod.git;protocol=https;branch=stable"
 
 SRCREV = "644ec073b4b100f6e2fdb7df8eb7e16741142086"
 

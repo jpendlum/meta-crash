@@ -7,7 +7,7 @@ DEPENDS += "\
 LIBCRASH_VERSION ?= "0.1"
 PV = "${LIBCRASH_VERSION}+git${SRCPV}"
 
-SRC_URI = "git://github.com/jpendlum/libcrash.git;protocol=https;branch=master"
+SRC_URI = "git://github.com/jpendlum/libcrash.git;protocol=https;branch=stable"
 
 SRCREV = "7f06f5f9b3452dddfeecaa655f1c4a39d5017573"
 
